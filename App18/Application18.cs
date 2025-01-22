@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 namespace App18
 {
     public class Application18 : ApplicationBase
-
     {
-        public static List<Button> buttons = new List<Button>();
 
         public Application18()
         {

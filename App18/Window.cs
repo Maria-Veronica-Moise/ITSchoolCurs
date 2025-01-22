@@ -8,8 +8,7 @@ namespace App18
 {
     public class Window
     {
-
-
+       
         public Window()
         {
             // Am putea pastra o lista cu toate butoanele aici
@@ -28,6 +27,8 @@ namespace App18
 
             Button button4 = new Button("Button 5");
             button4.Clicked += CandUnButonEsteApasat;
+
+            button.
         }
 
       
