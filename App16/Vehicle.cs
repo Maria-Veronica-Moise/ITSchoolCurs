@@ -25,7 +25,7 @@ namespace App16
         
         public string GetData()
         {
-            return $"Brand : {Brand}| Model: {Model}| Year: {Year}| Km: {Km}| Price: {Price}";
+            return $"Brand : {Brand}| Model: {Model}| Year: {Year}| Km: {Km}| Price: {Price}$";
         }
     }
 }

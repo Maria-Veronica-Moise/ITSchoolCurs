@@ -17,5 +17,11 @@ internal class Program
         catalogue.Vehicles.Add(new Vehicle("Opel", "Zafira", 1999, 245000, -500));
 
         catalogue.ShowAllVehicles();
+
+        List<Vehicle> sortedList = catalogue.SortByBrand("BMW");
+
+        Console.WriteLine();
+
+        VehicleCatalogue.ShowAllVehiclesFromCollection(sortedList);
     }
 }
