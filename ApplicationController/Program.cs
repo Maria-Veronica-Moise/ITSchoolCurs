@@ -14,6 +14,7 @@ using App13;
 using App14;
 using App15;
 using App16;
+using App18;
 using ItSchool.AppUtilities;
 
 namespace ApplicationController
@@ -40,6 +41,7 @@ namespace ApplicationController
                 new Application14(),
                 new Application15(),
                 new Application16(),
+                new Application18(),
                 ]);
 
             //ApplicationBase.Applications.Add(new Application01());

@@ -24,7 +24,38 @@ namespace App18
         }
         public override void Launch()
         {
-            
+            Window window = new Window();
+            CitesteUnButton(window.Buttons);
+
+        }
+
+        public void CitesteUnButton(List<Button> buttons)
+        {
+            string a;
+            Console.WriteLine("Introduce-ti numele unui buton.");
+            a = Console.ReadLine();
+            bool isButtonFound = false;
+
+            while (!isButtonFound)
+            {
+                foreach (Button button in buttons)
+                {
+                    if (button.Name == a)
+                    {
+                        button.SimulateClick();
+                        isButtonFound = true;
+                        break;
+                    }
+
+                }
+
+                if (!isButtonFound)
+                {
+                    Console.WriteLine("Numele introdus nu este valid. Introduce-ti un nume valid! ");
+                    a = Console.ReadLine();
+                }
+
+            }
         }
     }
 }

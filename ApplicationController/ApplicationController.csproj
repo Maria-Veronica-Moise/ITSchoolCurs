@@ -24,6 +24,7 @@
     <ProjectReference Include="..\App14\App14.csproj" />
     <ProjectReference Include="..\App15\App15.csproj" />
     <ProjectReference Include="..\App16\App16.csproj" />
+    <ProjectReference Include="..\App18\App18.csproj" />
     <ProjectReference Include="..\ItSchool.AppUtilities\ItSchool.AppUtilities.csproj" />
   </ItemGroup>
 
